@@ -1,0 +1,44 @@
+body{
+  background-color: rgb(56, 103, 176);
+  background-image: url(media/folios.jpg);
+  background-size: 314px;
+  background-repeat: repeat-y;
+}
+
+.encabezado{
+  display: grid;
+  grid-template-columns: 15px 244px 15px;
+}
+
+h1{
+  padding-left: 33px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: white;
+  text-shadow: 0 0 5px #ffff64;
+}
+
+.index{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  line-height: 20px;
+  color: rgb(255, 255, 100);
+}
+
+a:hover {
+  color: rgb(243,82,74);
+  text-shadow: 0 0 3px #ff0000;
+}
+
+.emoticon{
+  width: 181px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 11px;
+}
