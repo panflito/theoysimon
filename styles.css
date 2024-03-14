@@ -12,13 +12,13 @@ body{
 
 h1{
   padding-left: 33px;
-  font-family: url('media/ComicSansMS.woff')  format('truetype');
+  font-family: "Times New Roman", Times, serif;
   color: white;
   text-shadow: 0 0 5px #ffff64;
 }
 
 .index{
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Times New Roman", Times, serif;
 }
 
 li{
