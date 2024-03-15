@@ -7,11 +7,6 @@ body{
   background-position-y: 1%;
 }
 
-.encabezado{
-  display: grid;
-  grid-template-columns: 15px 244px 15px;
-}
-
 h1{
   padding-left: 33px;
   font-family: "Times New Roman", Times, serif;
