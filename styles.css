@@ -1,8 +1,10 @@
 body{
-  background-color: rgb(56, 103, 176);
+  background-color: rgb(0, 0, 0);
   background-image: url(media/folios.jpg);
   background-size: 314px;
   background-repeat: repeat-y;
+  background-position-x: 1%;
+  background-position-y: 1%;
 }
 
 .encabezado{
@@ -19,6 +21,7 @@ h1{
 
 .index{
   font-family: "Times New Roman", Times, serif;
+  padding-left: 22px;
 }
 
 li{
