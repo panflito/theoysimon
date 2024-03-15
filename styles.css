@@ -2,8 +2,9 @@ body{
   background-color: rgb(0, 0, 0);
   background-image: url(media/folios.jpg);
   background-size: 314px;
-  background-repeat: repeat-y;
-  background-position-x: 1%;
+  background-repeat: no-repeat;
+  background-position:22px 22px;
+
 }
 
 h1{
