@@ -1,0 +1,9 @@
+.fotis{
+    display: grid;
+    grid-template-columns: 314px;
+}
+
+.produ{
+    width: 314px;
+    margin-bottom: -25px;
+}
