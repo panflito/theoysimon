@@ -1,3 +1,5 @@
+
+
 body{
   background-color: rgb(0, 0, 0);
   background-image: url(media/folios.jpg);
@@ -9,9 +11,10 @@ body{
 
 h1{
   padding-left: 33px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Gill Sans';
   color: white;
   text-shadow: 0 0 5px #ffff64;
+  margin-top: 40px;
 }
 
 .index{
@@ -21,12 +24,17 @@ h1{
 
 li{
   list-style-type: none;
+  height: 25px;
+
 }
 
 a{
+  margin: 5px;
   text-decoration: none;
   line-height: 20px;
   color: rgb(255, 255, 100);
+  height: 1;
+  gap: 5px;
 }
 
 a:hover {
