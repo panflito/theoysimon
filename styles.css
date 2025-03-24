@@ -57,6 +57,8 @@ a{
   border: solid 2px black;
   padding: 8px;
   border-radius: 5px;
+  line-height: 2; /* Mantiene la altura de la línea */
+  margin: 10px; /* Añadido para espacio entre los elementos */
 }
 
 a:hover {
