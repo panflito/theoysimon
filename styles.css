@@ -1,43 +1,66 @@
-
-
 body{
-  background-color: rgb(0, 0, 0);
-  background-image: url(media/folios.jpg);
-  background-size: 314px;
-  background-repeat: no-repeat;
-  background-position:22px 22px;
-
+  background-image: url('media/city.gif'); /* Añade la ruta a tu imagen local */
+  background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+  background-position: center; /* Centra la imagen de fondo */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+  text-align: center;
 }
 
 h1{
-  padding-left: 33px;
+  background-color: white;
+  padding: 15px;
+  border: solid 2px black;
+  border-radius: 5px;
   font-family: 'Gill Sans';
-  color: white;
-  text-shadow: 0 0 5px #ffff64;
-  margin-top: 40px;
+  color: black;
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
 }
 
-.index{
-  font-family: "Times New Roman", Times, serif;
-  padding-left: 34px;
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 li{
   list-style-type: none;
   height: 25px;
-
+  padding: 5px;
+  text-align: center;
+  margin: 5px;
 }
 
 a{
-  margin: 5px;
+  background-color: white;
   text-decoration: none;
-  line-height: 20px;
-  color: rgb(255, 255, 100);
+  color: black;
   height: 1;
   gap: 5px;
+  border: solid 2px black;
+  padding: 8px;
+  border-radius: 5px;
 }
 
 a:hover {
   color: rgb(243,82,74);
   text-shadow: 0 0 3px #ff0000;
+  border: solid 2px rgb(243,82,74);
 }
