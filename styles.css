@@ -63,7 +63,7 @@ a{
   margin: 10px; /* Añadido para espacio entre los elementos */
 }
 
-a:hover {
+li:hover {
   color: rgb(243,82,74);
   text-shadow: 0 0 3px #ff0000;
   border: solid 2px rgb(243,82,74);
