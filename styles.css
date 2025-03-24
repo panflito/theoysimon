@@ -41,11 +41,15 @@ ul {
 }
 
 li{
+  background-color: white;
   list-style-type: none;
   height: 25px;
   padding: 5px;
   text-align: center;
   margin: 5px;
+  border: solid 2px black;
+  padding: 8px;
+  border-radius: 5px;
 }
 
 a{
@@ -54,9 +58,7 @@ a{
   color: black;
   height: 1;
   gap: 5px;
-  border: solid 2px black;
-  padding: 8px;
-  border-radius: 5px;
+  
   line-height: 2; /* Mantiene la altura de la línea */
   margin: 10px; /* Añadido para espacio entre los elementos */
 }
