@@ -1,7 +1,7 @@
-body{
-  background-image: url('media/city.gif'); /* Añade la ruta a tu imagen local */
-  background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
-  background-position: center; /* Centra la imagen de fondo */
+body {
+  background-image: url('media/city.gif');
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,62 +9,75 @@ body{
   min-height: 100vh;
   margin: 0;
   font-family: "Sixtyfour", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "BLED" 0,
-    "SCAN" 0;
   text-align: center;
+  background-color: #121212;
 }
 
-h1{
-  background-color: white;
+h1 {
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 15px;
   border: solid 2px black;
-  border-radius: 5px;
-  font-family: 'Gill Sans';
+  border-radius: 10px;
   color: black;
-  font-family: "Sixtyfour", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "BLED" 0,
-    "SCAN" 0;
+  margin-top: 50px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  text-align: center;
+h1:hover {
+  transform: scale(1.05);
 }
 
-li{
-  background-color: white;
-  list-style-type: none;
-  height: 25px;
-  padding: 5px;
-  text-align: center;
-  margin: 5px;
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+button {
+  background-color: rgba(255, 255, 255, 0.9);
   border: solid 2px black;
-  padding: 8px;
-  border-radius: 5px;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-family: "Sixtyfour", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 250px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
 }
 
-a{
-  background-color: white;
-  text-decoration: none;
-  color: black;
-  height: 1;
-  gap: 5px;
-  
-  line-height: 2; /* Mantiene la altura de la línea */
-  margin: 10px; /* Añadido para espacio entre los elementos */
+button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(243,82,74,0.3), transparent);
+  transition: all 0.6s;
 }
 
-li:hover {
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(243,82,74,0.3);
   color: rgb(243,82,74);
-  text-shadow: 0 0 3px #ff0000;
-  border: solid 2px rgb(243,82,74);
+  border-color: rgb(243,82,74);
+}
+
+button:hover::before {
+  left: 100%;
+}
+
+.music-btn {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.social-btn {
+  background-color: rgba(255, 255, 255, 0.9);
 }
