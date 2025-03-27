@@ -37,6 +37,7 @@ h1:hover {
 }
 
 button {
+  color: black;
   background-color: transparent;
   border: solid 2px black;
   border-radius: 8px;
