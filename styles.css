@@ -6,9 +6,9 @@ body {
   justify-content: flex-start;
   min-height: 100vh;
   margin: 0;
-  font-family: "Sixtyfour", sans-serif;
-  text-align: center;
-  background-color: #121212;
+  font-family: "Monofett", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1 {
@@ -20,6 +20,7 @@ h1 {
   margin-top: 50px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
+  size: 31px;
 
 }
 
@@ -36,12 +37,14 @@ h1:hover {
 }
 
 button {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: transparent;
   border: solid 2px black;
   border-radius: 8px;
   padding: 12px 24px;
-  font-family: "Sixtyfour", sans-serif;
-  font-size: 16px;
+  font-family: "Monofett", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
   cursor: pointer;
   transition: all 0.3s ease;
   width: 250px;
