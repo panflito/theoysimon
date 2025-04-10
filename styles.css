@@ -77,10 +77,9 @@ button:hover::before {
   left: 100%;
 }
 
-.music-btn {
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
+.music-btn,
+.notes-btn,
+.note-btn,
 .social-btn {
   background-color: rgba(255, 255, 255, 0.9);
 }
@@ -110,4 +109,25 @@ button:hover::before {
     justify-content: center;
     width: 100%;
     height: 100%;
+}
+
+.notes-btn {
+  margin-top: 10px;
+}
+
+.notes-dropdown {
+  display: none; /* Oculto por defecto */
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.notes-dropdown.active {
+  display: flex; /* Muestra el dropdown cuando está activo */
+}
+
+.note-btn {
+  width: 200px; /* Ancho menor para diferenciar */
+  font-size: 1.5em;
 }

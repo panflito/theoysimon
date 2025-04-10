@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
     });
-  
+
     // Optional: Add subtle click animation
     buttons.forEach(button => {
       button.addEventListener('mousedown', () => {
@@ -24,4 +24,14 @@ document.addEventListener('DOMContentLoaded', () => {
         button.style.transform = 'scale(1)';
       });
     });
-  });
+
+    // Fix for the "NOTAS" button
+    const notesButton = document.querySelector('.notes-btn');
+    const notesDropdown = document.querySelector('.notes-dropdown');
+
+    if (notesButton && notesDropdown) {
+      notesButton.addEventListener('click', () => {
+        notesDropdown.classList.toggle('active');
+      });
+    }
+});
